@@ -1,0 +1,6 @@
+2-10-2024
+Lees-tekst heeft een minimale letter-groote van 16 px
+een optimale regellengte van 10-12 woorden en een regelafstand van 1.4.
+Het is gebruikelijk om aan de html of de body de basis font styling 
+te definieren zoals: font-family, font-size en color
+Max-widht om er voor te zorgen dat een paragraaf niet breder wordt dmv 'em'
