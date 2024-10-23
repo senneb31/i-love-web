@@ -3,4 +3,18 @@ Lees-tekst heeft een minimale letter-groote van 16 px
 een optimale regellengte van 10-12 woorden en een regelafstand van 1.4.
 Het is gebruikelijk om aan de html of de body de basis font styling 
 te definieren zoals: font-family, font-size en color
-Max-widht om er voor te zorgen dat een paragraaf niet breder wordt dmv 'em'
+Max-width om er voor te zorgen dat een paragraaf niet breder wordt dmv 'em'
+
+Workshop Dion Pieters I Love Web
+Gestudeerd in Arnhem. 'Moet een deigner kunnen developen en moet een developer kunnen designen?'
+Via active theory kunnen aantonen dat alles kan op het web
+Figma gebruiken voor design
+- 'wat wil ik laten zien?'
+- 'welke lettertypen wil ik allemaal?'
+
+Moet ieder element op je site een vorm van animatie hebben?
+Je moet juist in je portfolio laten zien wat je kan
+
+Is je eigen portfolio het slechtse product wat je ooit op gaat leveren?
+Dion vindt van wel, want hij vindt dat je op jezelf altijd kritiek heb en dat het nooit af is.
+easings.net als tool voor javascript
