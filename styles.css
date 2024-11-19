@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "SENNE-FONT";
+    src: url("PixelFont-Regular.otf") format("opentype");
+}
+
+body{
+    font-family: "SENNE-FONT", monospace;
+}
