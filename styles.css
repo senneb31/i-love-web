@@ -1,9 +1,20 @@
-@font-face {
-    font-family: "SENNE-FONT";
-    src: url("PixelFont-Regular.otf") format("opentype");
-}
+html{
+    background-color: white;
+    margin: 0;
+    } 
 
 body{
-    font-family: "SENNE-FONT", monospace;    
+    font-family: "Archivo", Arial, Arial, Helvetica, sans-serif;
+        min-width: 320px;
+        grid-column: 4;
+        margin: 0;
+    
+
+}
+
+.mugshot{
+    margin: 16px;
+    width: 100px;
+    
 }
 
