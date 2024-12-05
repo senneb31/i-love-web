@@ -4,7 +4,19 @@ html{
     } 
 
 body{
-    font-family: "Archivo", Arial, Arial, Helvetica, sans-serif;
+
+    --main-font: "Didact Gothic";
+        --secondary-font: "Martian Mono";
+   
+   /* font-size-headings */
+       
+        --font-size-xxl: 96px;
+        --font-size-xl: 64px;
+        --font-size-l: 48px;
+        --font-size-m: 32px;
+        --font-size-s: 24px;
+        --font-size-xs: 24px;
+    
         min-width: 320px;
         grid-column: 4;
         margin: 0;
@@ -15,15 +27,18 @@ body{
 
 .header{
     background-color: #83715e;
-    border-bottom: solid 3px black;
+    border-bottom: solid 5px rgb(73, 54, 29);
     margin: 0px;
     display: flex;
-    align-items: center;    
+    align-items: center; 
+    
+     
 }
 
 .navbar{
     display: flex;
     align-items: center;
+    
 }
 
 .nav-items{
@@ -34,10 +49,11 @@ body{
 }
 
 .nav-list{
+    font-family: "Didact Gothic";
     color: black;
     text-decoration: none;
     font-size: 32px;
-    color: white;
+    color: rgb(255, 243, 227)
     
     
 }
@@ -46,7 +62,7 @@ body{
     margin: 16px;
     width: 150px;
     border-radius: 10%;
-    border: solid 2px black;
+    border: solid 3px rgb(73, 54, 29);
     
 }
 
@@ -63,10 +79,17 @@ body{
 }
 
 .h1{
+    font-family: "Didact Gothic";
+    font-size: var(--font-size-l);
     color: #83715e;
+    
+    
 }
 
 .ph1{
+    font-family: "Didact Gothic";
+    font-size: var(--font-size-s);
     color: #83715e;
+    
 }
 
