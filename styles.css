@@ -66,6 +66,22 @@ body{
     
 }
 
+.images{
+    background-color: #83715e;
+    width: 350px;
+    margin: 16px;
+}
+
+.image{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin: 24px;
+    width: 300px;
+    border: solid 1px rgb(255, 243, 227);
+    border-radius: 5%;
+}
+
 .article1{
     display: grid;
     justify-content: center;
@@ -95,5 +111,25 @@ body{
 
 .onderpagina{
     display: flex;
+    align-content: center;
+    align-items: center;
+    gap: 16em;
+}
+
+.FDND{
+    font-family: "Didact Gothic";
+    color: rgb(255, 243, 227);
+    text-decoration: none;
+    font-size: 32px;
+    width: 16em;
+    margin: 48px;
+    padding: 16px;
+    background-color: #83715e;
+    border-radius: 5%;
+}
+
+.FDND-article{
+    display: grid;
+    align-items: center;
 }
 
