@@ -73,3 +73,9 @@ lettertype die er op lijkt zodat mijn website niet afbreekt
 4-12-2024
 Vandaag heb ik geleerd over Javascript en hoe je ervoor zorgt dat er tekst bij komt onder een button
 Ik wil graag nog meer dingen leren over Javascript zoals het hamburgermenu en allemaal andere dingen.
+
+6-12-2024
+Vandaag heb ik code review gekregen op de Javascript die ik heb geschreven op woensdag 4-12. Ik heb mijn javascript
+gebruikt voor een hamburger menuutje die ik ga gebruiken bij mijn website voor mijn opdravchtgever. De feedback die ik heb 
+gekregen is dat ik mijn script over mijn hele document moet zetten en niet bovenaan, hierdoor kan mijn javascript geen 
+classes aanspreken. Waardoor mijn menuutje nog niet werkend was.

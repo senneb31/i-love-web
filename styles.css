@@ -15,7 +15,7 @@ body{
         --font-size-l: 48px;
         --font-size-m: 32px;
         --font-size-s: 24px;
-        --font-size-xs: 24px;
+        --font-size-xs: 16px;
     
         min-width: 320px;
         grid-column: 4;
@@ -25,14 +25,22 @@ body{
 
 }
 
+/*mobile first*/
+
 .header{
+    min-width: 300px;
     background-color: #83715e;
     border-bottom: solid 5px rgb(73, 54, 29);
     margin: 0px;
     display: flex;
-    align-items: center; 
-    
-     
+    align-items: center;     
+}
+
+.burgermenu{
+    background-color: rgb(0, 0, 0);
+    border: none;
+    display: flex;
+    align-items: center;
 }
 
 .navbar{
@@ -60,7 +68,7 @@ body{
 
 .mugshot{
     margin: 16px;
-    width: 150px;
+    width: 75px;
     border-radius: 10%;
     border: solid 3px rgb(73, 54, 29);
     
@@ -96,40 +104,48 @@ body{
 
 .h1{
     font-family: "Didact Gothic";
-    font-size: var(--font-size-l);
+    font-size: var(--font-size-m);
     color: #83715e;
-    
-    
 }
 
 .ph1{
     font-family: "Didact Gothic";
-    font-size: var(--font-size-s);
+    font-size: var(--font-size-xs);
     color: #83715e;
     
 }
 
 .onderpagina{
-    display: flex;
-    align-content: center;
-    align-items: center;
-    gap: 16em;
+    display: grid;
+    justify-content: center;
+    
+    
 }
 
 .FDND{
     font-family: "Didact Gothic";
     color: rgb(255, 243, 227);
     text-decoration: none;
-    font-size: 32px;
-    width: 16em;
-    margin: 48px;
-    padding: 16px;
+    font-size: var(--font-size-xs);
     background-color: #83715e;
-    border-radius: 5%;
+
 }
 
 .FDND-article{
-    display: grid;
-    align-items: center;
+    margin: 0;
+    padding: 32px;
 }
+
+.h2{
+    margin: 0;
+    padding-top: 8px;
+    padding-left: 8px;
+}
+
+.FDND-p{
+    margin: 0;
+    padding: 8px;
+}
+
+
 
