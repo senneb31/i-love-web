@@ -79,3 +79,8 @@ Vandaag heb ik code review gekregen op de Javascript die ik heb geschreven op wo
 gebruikt voor een hamburger menuutje die ik ga gebruiken bij mijn website voor mijn opdravchtgever. De feedback die ik heb 
 gekregen is dat ik mijn script over mijn hele document moet zetten en niet bovenaan, hierdoor kan mijn javascript geen 
 classes aanspreken. Waardoor mijn menuutje nog niet werkend was.
+
+9-12-2024
+Vandaag heb ik over UI Events geleerd. Ik heb geleerd hoe ik via JS een animatie aan een button kan geven.
+Ik gebruik hiervooor keyframes en JS om een bepaalde class aan te spreken in CSS. Ook heb ik mijn schetsen gemaakt en ik heb 
+bedacht welke animaties ik wil gaan gebruiken.
