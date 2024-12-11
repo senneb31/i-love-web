@@ -5,51 +5,78 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>The Client Website</title>
         <link rel="stylesheet" href="styles.css">
+        <script src="main.js" defer></script>
+        
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Chivo:ital,wght@0,100..900;1,100..900&family=Didact+Gothic&family=Martian+Mono:wght@100..800&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Chivo:ital,wght@0,100..900;1,100..900&family=Cinzel+Decorative:wght@400;700;900&family=Didact+Gothic&family=Martian+Mono:wght@100..800&display=swap" rel="stylesheet">
     </head>
 
 <body>
     <header class="header">
-        <img src="mugshotSenne.jpg" alt="Mugshot van mij" class="mugshot">
-        <nav class="navbar">
-          <ul class="nav-items">
-            <li>
-              <a class="nav-list" href="Over mij">OVER MIJ</a>
-            </li>
-            <li>
-              <a class="nav-list" href="FDND">FDND</a>
-            </li>
-            <button class="burgermenu">D</button>
-          </ul>
-        </nav>
+      <p class="header-tekst">Senne Brussel</p>
     </header>
+    <div class="header-bottom"> 
+        <div class="header__nav">
+          <nav class="nav">
+            <section class="nav__list">
+             <a href="over mij">OVER MIJ</a>
+             <a href="fdnd">FDND</a>
+            </section>  
+            
+        </div>
+        <div class="img">
+          <img src="FrontPictureWeb.jpeg" alt="Mugshot van mij" class="mugshot">
+        </div>
+            <div class="menu-btn">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+        </nav>
+    </div>
+
         <article class="article1">
-          <h1 class="h1">WIE BEN IK?</h1>
-          <p class="ph1">Ik ben Senne Brussel. Ik ben 20 jaar oud en ik studeer Frontend Design and Development aan de HvA.
+          <h3 class="h3">WIE BEN IK?</h3>
+          <p class="ph3">Ik ben Senne Brussel. Ik ben 20 jaar oud en ik studeer Frontend Design and Development aan de HvA.
             Dit houdt in dat ik me bezig hou me coderen en designen om een website te maken. In het dagelijks leven 
             doe ik aan voetballen bij mijn plaatselijke amateur club in Assendelft. Ik werk in Amsterdam bij een installatiebedrijf genaamd Guidion.
             Ik woon nu samen met mijn vriendin in Zaandam, maar ben geboren in Assendelft. Wil je nog meer over mij te weten komen? Klik dan op deze link.
           </p>
         </article>
         
-        <div class="onderpagina">
-          <div class="FDND-article">
-            <article class="FDND">
-              <h2 class="h2">FDND</h2>
-              <p class="FDND-p">Bij mijn opleiding hou ik bij wat ik elke week leer. Dit doe ik door middel van een Learning Journal. 
-                Wil je weten wat ik doe bij mijn opleiding en wat ik allemaal al heb gemaakt? Klik dan hier</p>
-            </article>
-          </div>
+        <article class="article2">
+          <h4 class="h4">
+            FDND
+          </h4>
+          <p class="FDND-p">
+            Bij mijn opleiding ben ik bezig met het bouwen van websites. Ook houdt ik per dag bij wat ik leer en wat ik heb gedaan. Wil je meer lezen? Klik dan op deze link.
+          </p>
+        </article>
 
-          <div class="images">
-            <img src="mugshotSenne.jpg" alt="Mugshot van mij" class="image">
-            <img src="mugshotSenne.jpg" alt="Mugshot van mij" class="image">
-          </div>
-        </div>
+<footer>
+  <section class="footer">
+    <div class="socials">
+      <a href="Instagram" class="insta">Instagram</a>
+      <a href="Facebook" id="facebook">Facebook</a>
+      <a href="LinkedIn">LinkedIn</a>
+      <a href="tel">+31 6 43289688</a>
+      <a href="mail">sennebrussel@gmail.com</a>
+    </div>
+    <div class="adres">
+      <ul class="adres-ul">
+        <li>Senne Brussel</li>
+        <li>Aletta Jacobsstraat 10</li>
+        <li>1566 SH Assendelft</li>
+      </ul>
+    </div>
+  </section>
+</footer>
+  
 
-
-   
+        
 </body>

@@ -1,12 +1,13 @@
 html{
     background-color: white;
     margin: 0;
+    width: 100%;
     } 
 
 body{
 
-    --main-font: "Didact Gothic";
-        --secondary-font: "Martian Mono";
+        --main-font: "Didact Gothic";
+        --secondary-font: "Cinzel Decorative";
    
    /* font-size-headings */
        
@@ -17,10 +18,9 @@ body{
         --font-size-s: 24px;
         --font-size-xs: 16px;
     
-        min-width: 320px;
-        grid-column: 4;
+        
         margin: 0;
-        background-color: rgb(255, 243, 227);
+        background-color: #D8CFBC;
     
 
 }
@@ -28,124 +28,327 @@ body{
 /*mobile first*/
 
 .header{
-    min-width: 300px;
-    background-color: #83715e;
-    border-bottom: solid 5px rgb(73, 54, 29);
+    position: sticky;
+    top: 0;
+    background-color: #565449;
+    height: 35px;
     margin: 0px;
-    display: flex;
-    align-items: center;     
+    display: grid;
+    align-items: center;
+    justify-content: center;      
 }
 
-.burgermenu{
-    background-color: rgb(0, 0, 0);
-    border: none;
-    display: flex;
-    align-items: center;
+.header-tekst{
+    font-family: var(--main-font);
+    font-size: var(--font-size-xs);
+    color: #FFFBF4;  
 }
+
+
+.header-bottom{
+    background-color: #D8CFBC;
+    margin: 0px;
+    display: grid;
+}
+/*burgermenu
+
+.menu-btn {
+    padding-right: 32px;
+	width: 30px;
+	height: 30px;
+	position: relative;
+	z-index:2;
+	overflow: hidden;
+}
+
+.menu-btn .bar {
+	width: 30px;
+	height: 4px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+  border-radius: 4px;
+	transform: translate(-50%, -50%);
+	background-color: #565449;
+	transition: all 0.3s ease-in-out;
+}
+
+.menu-btn .bar:nth-of-type(2) {
+	top: calc(50% - 9px);
+}
+.menu-btn .bar:nth-of-type(3) {
+	top: calc(50% + 9px);
+}
+
+.menu-btn.active .bar:nth-of-type(1) {
+  display: none;
+}
+.menu-btn.active .bar:nth-of-type(2) {
+  top: 50%;
+  transform: translate(-50%, 0%) rotate(45deg);  
+}
+.menu-btn.active .bar:nth-of-type(3) {
+  top: 50%;
+  transform: translate(-50%, 0%) rotate(-45deg); 
+}
+.nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 15px;
+  background: #FFEFBA;
+	transform: translateX(100%);
+	transition: transform 0.5s; 
+}
+
+.nav.active {
+	transform: translateX(0);
+}
+
+.nav .nav__list_item {
+	list-style-type: none;
+}
+
+
 
 .navbar{
     display: flex;
     align-items: center;
     
 }
+*/
 
-.nav-items{
+.nav__list{
     list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
     display: flex;
-    gap: 148px;
-    padding-left: 180px;
+    justify-content: space-around;
+    padding: 32px;
+    
 }
 
-.nav-list{
+a{
     font-family: "Didact Gothic";
-    color: black;
     text-decoration: none;
-    font-size: 32px;
-    color: rgb(255, 243, 227)
+    font-size: var(--font-size-m);
+    color: #565449;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+p:nth-child(1){
+    margin: 0;
+    font-family: "Didact Gothic";
+    text-decoration: none;
+    font-size: var(--font-size-xs);
+    color: #FFFBF4;
+}
+
+
+a:nth-child(2){
+    font-family: "Didact Gothic";
+    text-decoration: none;
+    font-size: var(--font-size-m);
+    color: #565449;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+
+
+a:nth-of-type(1):hover{
+    animation-name: vergroting;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
     
+}
+
+a:nth-of-type(2):hover{
+    animation-name: vergroting;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
     
+}
+
+@keyframes vergroting{
+    0%{
+      transform: scale(1);
+    }
+    50%{
+      transform: scale(1.5);
+    }
+    100%{
+      transform: scale(1);
+    }
+  }
+
+.img{
+    display: flex;
+    justify-content: center; 
 }
 
 .mugshot{
-    margin: 16px;
-    width: 75px;
-    border-radius: 10%;
-    border: solid 3px rgb(73, 54, 29);
-    
+    margin: 0;
+    width: 75%;
 }
 
-.images{
-    background-color: #83715e;
-    width: 350px;
-    margin: 16px;
-}
-
-.image{
-    display: flex;
-    align-items: center;
-    align-content: center;
-    margin: 24px;
-    width: 300px;
-    border: solid 1px rgb(255, 243, 227);
-    border-radius: 5%;
-}
 
 .article1{
     display: grid;
     justify-content: center;
     justify-items: center;
-    margin: 32px;
-   
-    
-    padding: 16px;
-    
-    
+    padding: 32px 32px 0px 32px;
 }
 
-.h1{
+.h3{
     font-family: "Didact Gothic";
     font-size: var(--font-size-m);
-    color: #83715e;
+    color: #565449;
 }
 
-.ph1{
+.ph3{
     font-family: "Didact Gothic";
     font-size: var(--font-size-xs);
-    color: #83715e;
-    
+    color: #565449;  
 }
 
-.onderpagina{
+.article2{
+    margin: 0;
+    padding: 0px 32px 32px 32px;
     display: grid;
-    justify-content: center;
-    
-    
+    justify-items: center;
 }
 
-.FDND{
-    font-family: "Didact Gothic";
-    color: rgb(255, 243, 227);
-    text-decoration: none;
-    font-size: var(--font-size-xs);
-    background-color: #83715e;
-
-}
-
-.FDND-article{
+.h4{
     margin: 0;
     padding: 32px;
-}
-
-.h2{
-    margin: 0;
-    padding-top: 8px;
-    padding-left: 8px;
+    font-family: var(--main-font);
+    font-size: var(--font-size-m);
+    color: #565449;
 }
 
 .FDND-p{
     margin: 0;
-    padding: 8px;
+    font-family: var(--main-font);
+    font-size: var(--font-size-xs);
+    color: #565449;
 }
 
+a:nth-of-type(3){
+    font-family: "Didact Gothic";
+    text-decoration: none;
+    font-size: var(--font-size-xs);
+    color: #565449;
+    text-decoration: underline;
+    text-underline-position: under;
+}
 
+a:nth-child(4){
+    font-family: "Didact Gothic";
+    text-decoration: none;
+    font-size: var(--font-size-xs);
+    color: #565449;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+a:nth-child(5){
+    font-family: "Didact Gothic";
+    text-decoration: none;
+    font-size: var(--font-size-xs);
+    color: #565449;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+a:nth-child(6){
+    font-family: "Didact Gothic";
+    text-decoration: none;
+    font-size: var(--font-size-xs);
+    color: #565449;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+a:nth-child(7){
+    font-family: "Didact Gothic";
+    text-decoration: none;
+    font-size: var(--font-size-xs);
+    color: #565449;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.insta{
+    font-family: "Didact Gothic";
+    text-decoration: none;
+    font-size: var(--font-size-xs);
+    color: #565449;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+#facebook{
+    font-family: "Didact Gothic";
+    text-decoration: none;
+    font-size: var(--font-size-xs);
+    color: #565449;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.footer{
+    display: flex;
+    align-items: baseline;
+    border-top: solid 1px #11120D;
+}
+    
+.socials{
+    display: grid;
+    padding: 8px 16px 16px 16px;
+    border-right: solid 1px #11120D;
+}
+
+.adres{
+    height: 100%; 
+}
+
+.adres-ul{
+    display: grid;
+    justify-items: start;
+    margin: 0;
+    padding-left: 16px;
+}
+
+li:nth-of-type(1){
+    font-family: "Didact Gothic";
+    list-style-type: none;
+    text-decoration: none;
+    font-size: var(--font-size-xs);
+    color: #565449;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+li:nth-of-type(2){
+    font-family: "Didact Gothic";
+    list-style-type: none;
+    text-decoration: none;
+    font-size: var(--font-size-xs);
+    color: #565449;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+li:nth-of-type(3){
+    font-family: "Didact Gothic";
+    list-style-type: none;
+    text-decoration: none;
+    font-size: var(--font-size-xs);
+    color: #565449;
+    text-decoration: underline;
+    text-underline-position: under;
+}
 
