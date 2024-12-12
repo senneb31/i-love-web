@@ -8,6 +8,7 @@ body{
 
         --main-font: "Didact Gothic";
         --secondary-font: "Cinzel Decorative";
+        --third-font: "Castoro Titling"
    
    /* font-size-headings */
        
@@ -20,7 +21,7 @@ body{
     
         
         margin: 0;
-        background-color: #D8CFBC;
+        background-color: #FFFBF4;
     
 
 }
@@ -41,12 +42,12 @@ body{
 .header-tekst{
     font-family: var(--main-font);
     font-size: var(--font-size-xs);
-    color: #FFFBF4;  
+    color: #FFFBF4; 
 }
 
 
 .header-bottom{
-    background-color: #D8CFBC;
+    background-color: #e5e1dc;
     margin: 0px;
     display: grid;
 }
@@ -135,7 +136,7 @@ a{
     font-family: "Didact Gothic";
     text-decoration: none;
     font-size: var(--font-size-m);
-    color: #565449;
+    color: #11120D;
     text-decoration: underline;
     text-underline-position: under;
 }
@@ -153,7 +154,7 @@ a:nth-child(2){
     font-family: "Didact Gothic";
     text-decoration: none;
     font-size: var(--font-size-m);
-    color: #565449;
+    color: #11120D;
     text-decoration: underline;
     text-underline-position: under;
 }
@@ -179,7 +180,7 @@ a:nth-of-type(2):hover{
       transform: scale(1);
     }
     50%{
-      transform: scale(1.5);
+      transform: scale(1.1);
     }
     100%{
       transform: scale(1);
@@ -188,7 +189,8 @@ a:nth-of-type(2):hover{
 
 .img{
     display: flex;
-    justify-content: center; 
+    justify-content: center;
+    padding-bottom: 50px; 
 }
 
 .mugshot{
@@ -200,49 +202,61 @@ a:nth-of-type(2):hover{
 .article1{
     display: grid;
     justify-content: center;
-    justify-items: center;
-    padding: 32px 32px 0px 32px;
+    justify-items: start;
+    padding: 0px 32px 0px 32px;
 }
 
 .h3{
-    font-family: "Didact Gothic";
+    font-family: "Castoro Titling";
     font-size: var(--font-size-m);
-    color: #565449;
+    color: #11120D;
+    margin: 0;
+    padding-top: 32px;
+}
+
+#article1-p{
+    margin: 0;
+    font-family: var(--secondary-font);
+    font-size: var(--font-size-xs);
+    padding: 8px 0 8px 0;
 }
 
 .ph3{
     font-family: "Didact Gothic";
     font-size: var(--font-size-xs);
-    color: #565449;  
+    color: #11120D;  
+    text-align: justify;
+    margin: 0;
 }
 
 .article2{
     margin: 0;
     padding: 0px 32px 32px 32px;
     display: grid;
-    justify-items: center;
+    justify-items: start;
 }
 
 .h4{
     margin: 0;
-    padding: 32px;
-    font-family: var(--main-font);
+    padding-top: 32px;
+    font-family: "Castoro Titling";
     font-size: var(--font-size-m);
-    color: #565449;
+    color: #11120D;
 }
 
 .FDND-p{
     margin: 0;
     font-family: var(--main-font);
     font-size: var(--font-size-xs);
-    color: #565449;
+    color: #11120D;
+    text-align: justify;
 }
 
 a:nth-of-type(3){
     font-family: "Didact Gothic";
     text-decoration: none;
     font-size: var(--font-size-xs);
-    color: #565449;
+    color: #11120D;
     text-decoration: underline;
     text-underline-position: under;
 }
@@ -251,7 +265,7 @@ a:nth-child(4){
     font-family: "Didact Gothic";
     text-decoration: none;
     font-size: var(--font-size-xs);
-    color: #565449;
+    color: #11120D;
     text-decoration: underline;
     text-underline-position: under;
 }
@@ -260,7 +274,7 @@ a:nth-child(5){
     font-family: "Didact Gothic";
     text-decoration: none;
     font-size: var(--font-size-xs);
-    color: #565449;
+    color: #11120D;
     text-decoration: underline;
     text-underline-position: under;
 }
@@ -268,7 +282,7 @@ a:nth-child(6){
     font-family: "Didact Gothic";
     text-decoration: none;
     font-size: var(--font-size-xs);
-    color: #565449;
+    color: #11120D;
     text-decoration: underline;
     text-underline-position: under;
 }
@@ -276,7 +290,7 @@ a:nth-child(7){
     font-family: "Didact Gothic";
     text-decoration: none;
     font-size: var(--font-size-xs);
-    color: #565449;
+    color: #11120D;
     text-decoration: underline;
     text-underline-position: under;
 }
@@ -285,7 +299,7 @@ a:nth-child(7){
     font-family: "Didact Gothic";
     text-decoration: none;
     font-size: var(--font-size-xs);
-    color: #565449;
+    color: #11120D;
     text-decoration: underline;
     text-underline-position: under;
 }
@@ -294,7 +308,7 @@ a:nth-child(7){
     font-family: "Didact Gothic";
     text-decoration: none;
     font-size: var(--font-size-xs);
-    color: #565449;
+    color: #11120D;
     text-decoration: underline;
     text-underline-position: under;
 }
