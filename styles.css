@@ -317,6 +317,7 @@ a:nth-child(7){
     display: flex;
     align-items: baseline;
     border-top: solid 1px #11120D;
+    border-bottom: solid 1px #11120D;
 }
     
 .socials{
@@ -366,3 +367,20 @@ li:nth-of-type(3){
     text-underline-position: under;
 }
 
+.Copyright{
+    margin: 0;
+    font-family: "Didact Gothic";
+    font-size: var(--font-size-xs);
+    padding: 16px;
+}
+
+@media all and (min-width: 685px){
+.articles{
+    display: flex
+}
+
+.article1{
+    padding-bottom: 32px;
+}
+
+}
