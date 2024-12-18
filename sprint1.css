@@ -1,0 +1,113 @@
+html{
+    background-color: #FFFBF4;
+    margin: 0;
+    width: 100%;
+    } 
+
+body{
+
+    /*fonts*/  
+        --main-font: "Didact Gothic";
+        --secondary-font: "Cinzel Decorative";
+        --third-font: "Castoro Titling"
+   
+    /* font-size-headings */
+        --font-size-xxl: 96px;
+        --font-size-xl: 64px;
+        --font-size-l: 48px;
+        --font-size-m: 32px;
+        --font-size-s: 24px;
+        --font-size-xs: 16px;
+
+    /* font-weights*/
+        --font-weight-xl: 600;
+        --font-weight-l: 500;
+        --font-weight-m: 400;
+        --font-weight-s: 300;
+        --font-weight-xs: 200;
+    
+    /*colors*/
+        --standard-color: #fffbf4;
+        --second-color: #565499;
+        --third-color: #e5e1dc;
+        --text-color: #11120D;
+        --fourth-color: #565449;
+        
+        margin: 0;
+        background-color: #FFFBF4;
+    
+
+}
+
+.header{
+    position: sticky;
+    top: 0;
+    background-color: #565449;
+    height: 35px;
+    margin: 0px;
+    display: grid;
+    align-items: center;
+    justify-content: center;      
+}
+
+.header-tekst{
+    margin: 0;
+    font-family: var(--main-font);
+    font-size: var(--font-size-xs);
+    color: #FFFBF4; 
+}
+
+.h1{
+    font-family: var(--main-font);
+    font-weight: var(--font-weight-xl);  
+    font-size: var(--font-size-m);
+    color: var(--fourth-color);
+    margin: 0;
+    padding: 32px;
+    text-align: center;
+    border-bottom: solid 5px var(--fourth-color);
+    border-radius: 50%;
+}
+
+.h2{
+    font-family: var(--main-font);
+    font-weight: var(--font-weight-xl);  
+    font-size: var(--font-size-s);
+    color: var(--fourth-color);
+    margin: 0;
+    width: fit-content;
+    border-bottom: solid 3px var(--fourth-color);
+    padding-bottom: 3px;
+}
+
+.article-sprint1{
+    display: grid;
+    justify-items: center;
+    padding: 32px;
+    border-bottom: solid 3px var(--fourth-color);
+}
+
+.p-sprint{
+    font-family: var(--main-font);
+    margin: 0;
+    padding-top: 16px;
+    text-align: justify;
+}
+
+.list-sprint1{
+    list-style-type: none;
+    display: grid;
+    margin: 0;
+    gap: 32px;
+    padding: 32px 0;
+    font-family: var(--main-font);
+    font-weight: 900;
+    text-align: justify;
+}
+
+.article-sprint2{
+    display: grid;
+    justify-items: center;
+    padding: 32px;
+    border-bottom: solid 3px var(--fourth-color);
+}

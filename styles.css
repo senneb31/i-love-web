@@ -319,7 +319,7 @@ a:nth-child(7){
 }
 
 .footer{
-    display: flex;
+    display: grid;
     align-items: baseline;
     border-top: solid 1px #11120D;
     border-bottom: solid 1px #11120D;
@@ -328,7 +328,7 @@ a:nth-child(7){
 .socials{
     display: grid;
     padding: 8px 16px 16px 16px;
-    border-right: solid 1px #11120D;
+    border-bottom: solid 1px #11120D;
 }
 
 .adres{
@@ -339,7 +339,7 @@ a:nth-child(7){
     display: grid;
     justify-items: start;
     margin: 0;
-    padding-left: 16px;
+    padding: 16px;
 }
 
 li:nth-of-type(1){
@@ -386,6 +386,21 @@ li:nth-of-type(3){
 
 .article1{
     padding-bottom: 32px;
+}
+
+.footer{
+    display: flex;
+    align-items: baseline;
+    border-top: solid 1px #11120D;
+    
+}
+
+.socials{
+    display: grid;
+    padding: 16px;
+    border-right: solid 1px #11120D;
+    border-bottom: none;
+    
 }
 
 }
