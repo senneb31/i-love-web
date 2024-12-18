@@ -6,12 +6,12 @@ html{
 
 body{
 
+    /*fonts*/  
         --main-font: "Didact Gothic";
         --secondary-font: "Cinzel Decorative";
         --third-font: "Castoro Titling"
    
-   /* font-size-headings */
-       
+    /* font-size-headings */
         --font-size-xxl: 96px;
         --font-size-xl: 64px;
         --font-size-l: 48px;
@@ -19,6 +19,11 @@ body{
         --font-size-s: 24px;
         --font-size-xs: 16px;
     
+    /*colors*/
+        --standard-color: #fffbf4;
+        --second-color: #565499;
+        --third-color: #e5e1dc;
+        --text-color: #11120D;
         
         margin: 0;
         background-color: #FFFBF4;
