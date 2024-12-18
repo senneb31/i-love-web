@@ -88,3 +88,13 @@ bedacht welke animaties ik wil gaan gebruiken.
 11-9-2024
 Wat heb ik vandaag geleerd over HTML, CSS en JS?
 Ik heb vandaag geleerd om handig om te gaan met keyframes en document.querySelector. Hierdoor kon ik aardig wat leuke events maken
+
+Wat ga je vrijdag nog toevoegen aan je micro-interactie voor de opdrachtgever?
+Ik ga verschuivingen in de tabs toevoegen. Ik wil dat de tabs verschuiven als ik hier overeen ga met mijn muis.
+Dit doe ik d.m.v. transform: translateX().
+
+Welke functionaliteit wil je vrijdag laten testen?
+Ik wil testen of de tabs werken als ik er via tabben naartoe ga. Dus niet alleen met de hover.
+
+18-12-2924
+Vandaag heb ik de sprint review voorbereid. Ook heb ik een begin gemaakt aan mijn readme door het analyseren van alle andere readme's.
