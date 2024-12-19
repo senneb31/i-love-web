@@ -73,7 +73,7 @@ body{
 	position: absolute;
 	top: 50%;
 	left: 50%;
-  border-radius: 4px;
+    border-radius: 4px;
 	transform: translate(-50%, -50%);
 	background-color: #565449;
 	transition: all 0.3s ease-in-out;
@@ -104,7 +104,7 @@ body{
 	width: 100%;
 	height: 100%;
 	padding: 15px;
-  background: #FFEFBA;
+    background: #FFEFBA;
 	transform: translateX(100%);
 	transition: transform 0.5s; 
 }
