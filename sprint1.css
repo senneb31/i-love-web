@@ -39,7 +39,8 @@ body{
     margin: 0px;
     display: grid;
     align-items: center;
-    justify-content: center;      
+    justify-content: center;
+    z-index: 100;      
 }
 
 .header-tekst{
@@ -184,7 +185,8 @@ body{
     margin: 0px;
     display: grid;
     align-items: center;
-    justify-content: center;      
+    justify-content: center; 
+    z-index: 100;     
 }
 
 .header-tekst{

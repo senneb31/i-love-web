@@ -72,7 +72,7 @@ body{
     padding-bottom: 3px;
 }
 
-.article1-sprint3{
+.article1-sprint5{
     display: grid;
     justify-items: center;
     padding: 32px;
@@ -80,14 +80,14 @@ body{
     border-bottom-style: dashed;
 }
 
-.p1-sprint3{
+.p1-sprint5{
     font-family: var(--main-font);
     margin: 0;
     padding-top: 16px;
     text-align: justify;
 }
 
-.article2-sprint3{
+.article2-sprint5{
     display: grid;
     justify-items: center;
     padding: 32px;
@@ -95,14 +95,14 @@ body{
     border-bottom-style: dashed;
 }
 
-.p2-sprint3{
+.p2-sprint5{
     font-family: var(--main-font);
     margin: 0;
     padding-top: 16px;
     text-align: justify;
 }
 
-.article3-sprint3{
+.article3-sprint5{
     display: grid;
     justify-items: center;
     padding: 32px;
@@ -110,7 +110,52 @@ body{
     border-bottom-style: dashed;
 }
 
-.p3-sprint3{
+.p3-sprint5{
+    font-family: var(--main-font);
+    margin: 0;
+    padding-top: 16px;
+    text-align: justify;
+}
+
+.article4-sprint5{
+    display: grid;
+    justify-items: center;
+    padding: 32px;
+    border-bottom: solid 3px var(--fourth-color);
+    border-bottom-style: dashed;
+}
+
+.p4-sprint5{
+    font-family: var(--main-font);
+    margin: 0;
+    padding-top: 16px;
+    text-align: justify;
+}
+
+.article5-sprint5{
+    display: grid;
+    justify-items: center;
+    padding: 32px;
+    border-bottom: solid 3px var(--fourth-color);
+    border-bottom-style: dashed;
+}
+
+.p5-sprint5{
+    font-family: var(--main-font);
+    margin: 0;
+    padding-top: 16px;
+    text-align: justify;
+}
+
+.article6-sprint5{
+    display: grid;
+    justify-items: center;
+    padding: 32px;
+    border-bottom: solid 3px var(--fourth-color);
+    border-bottom-style: dashed;
+}
+
+.p6-sprint5{
     font-family: var(--main-font);
     margin: 0;
     padding-top: 16px;
@@ -143,7 +188,7 @@ body{
     .vl{
         background: var(--second-color);
         width: 5px;
-        height: 610px;
+        height: 1400px;
         position: absolute;
         left: 30%;
         top: 190px;
@@ -159,7 +204,7 @@ body{
         top: 190px;
     }
     
-    .article1-sprint3{
+    .article1-sprint5{
         display: grid;
         justify-items: center;
         position: relative;
@@ -170,14 +215,14 @@ body{
         border-bottom-style: dashed;
     }
     
-    .p1-sprint3{
+    .p1-sprint5{
         font-family: var(--main-font);
         margin: 0;
         padding-top: 16px;
         text-align: justify;
     }
     
-    .list1-sprint3{
+    .list1-sprint5{
         list-style-type: none;
         display: grid;
         margin: 0;
@@ -188,7 +233,7 @@ body{
         text-align: justify;
     }
     
-    .article2-sprint3{
+    .article2-sprint5{
         display: grid;
         justify-items: center;
         position: relative;
@@ -199,14 +244,14 @@ body{
         border-bottom-style: dashed;
     }
     
-    .p2-sprint3{
+    .p2-sprint5{
         font-family: var(--main-font);
         margin: 0;
         padding-top: 16px;
         text-align: justify;
     }
     
-    .article3-sprint3{
+    .article3-sprint5{
         display: grid;
         justify-items: center;
         position: relative;
@@ -217,7 +262,79 @@ body{
         border-bottom-style: dashed;
     }
     
-    .p3-sprint3{
+    .p3-sprint5{
+        font-family: var(--main-font);
+        margin: 0;
+        padding-top: 16px;
+        text-align: justify;
+    }
+
+    .article3-sprint5{
+        display: grid;
+        justify-items: center;
+        position: relative;
+        left: 35%;
+        width: 400px;
+        padding: 32px;
+        border-bottom: solid 3px var(--fourth-color);
+        border-bottom-style: dashed;
+    }
+    
+    .p3-sprint5{
+        font-family: var(--main-font);
+        margin: 0;
+        padding-top: 16px;
+        text-align: justify;
+    }
+
+    .article4-sprint5{
+        display: grid;
+        justify-items: center;
+        position: relative;
+        left: 35%;
+        width: 400px;
+        padding: 32px;
+        border-bottom: solid 3px var(--fourth-color);
+        border-bottom-style: dashed;
+    }
+    
+    .p4-sprint5{
+        font-family: var(--main-font);
+        margin: 0;
+        padding-top: 16px;
+        text-align: justify;
+    }
+
+    .article5-sprint5{
+        display: grid;
+        justify-items: center;
+        position: relative;
+        left: 35%;
+        width: 400px;
+        padding: 32px;
+        border-bottom: solid 3px var(--fourth-color);
+        border-bottom-style: dashed;
+    }
+    
+    .p5-sprint5{
+        font-family: var(--main-font);
+        margin: 0;
+        padding-top: 16px;
+        text-align: justify;
+    }
+
+    .article6-sprint5{
+        display: grid;
+        justify-items: center;
+        position: relative;
+        left: 35%;
+        width: 400px;
+        padding: 32px;
+        border-bottom: solid 3px var(--fourth-color);
+        border-bottom-style: dashed;
+    }
+    
+    .p6-sprint5{
         font-family: var(--main-font);
         margin: 0;
         padding-top: 16px;

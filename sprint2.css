@@ -116,3 +116,111 @@ body{
     padding-top: 16px;
     text-align: justify;
 }
+
+@media all and (min-width: 751px){
+
+    .header{
+        position: sticky;
+        top: 0;
+        background-color: var(--second-color);
+        height: 35px;
+        margin: 0px;
+        display: grid;
+        align-items: center;
+        justify-content: center; 
+        z-index: 100;     
+    }
+    
+    .header-tekst{
+        margin: 0;
+        font-family: var(--main-font);
+        font-size: var(--font-size-xs);
+        color: var(--standard-color); 
+    }
+    
+    
+    
+    .vl{
+        background: var(--second-color);
+        width: 5px;
+        height: 600px;
+        position: absolute;
+        left: 30%;
+        top: 190px;
+        
+    }
+    
+    .hl{
+        background: var(--second-color);
+        width: 150px;
+        height: 5px;
+        position: absolute;
+        left: 30%;
+        top: 190px;
+    }
+    
+    .article1-sprint2{
+        display: grid;
+        justify-items: center;
+        position: relative;
+        left: 35%;
+        width: 400px;
+        padding: 32px;
+        border-bottom: solid 3px var(--fourth-color);
+        border-bottom-style: dashed;
+    }
+    
+    .p1-sprint2{
+        font-family: var(--main-font);
+        margin: 0;
+        padding-top: 16px;
+        text-align: justify;
+    }
+    
+    .list1-sprint2{
+        list-style-type: none;
+        display: grid;
+        margin: 0;
+        gap: 32px;
+        padding: 32px 0;
+        font-family: var(--main-font);
+        font-weight: 900;
+        text-align: justify;
+    }
+    
+    .article2-sprint2{
+        display: grid;
+        justify-items: center;
+        position: relative;
+        left: 35%;
+        width: 400px;
+        padding: 32px;
+        border-bottom: solid 3px var(--fourth-color);
+        border-bottom-style: dashed;
+    }
+    
+    .p2-sprint2{
+        font-family: var(--main-font);
+        margin: 0;
+        padding-top: 16px;
+        text-align: justify;
+    }
+    
+    .article3-sprint2{
+        display: grid;
+        justify-items: center;
+        position: relative;
+        left: 35%;
+        width: 400px;
+        padding: 32px;
+        border-bottom: solid 3px var(--fourth-color);
+        border-bottom-style: dashed;
+    }
+    
+    .p3-sprint2{
+        font-family: var(--main-font);
+        margin: 0;
+        padding-top: 16px;
+        text-align: justify;
+    }
+    }

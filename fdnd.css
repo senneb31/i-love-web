@@ -118,5 +118,13 @@ a:hover{
     font-size: var(--font-size-m);
     border-bottom: solid 3px #11120D;
     
-}      
+}  
+
+#sprint-6{
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: var(--font-size-m);
+    border-bottom: solid 3px #11120D;
+    
+} 
     
