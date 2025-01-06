@@ -20,13 +20,13 @@ body{
         --font-size-xs: 16px;
     
     /*colors*/
-        --standard-color: #fffbf4;
-        --second-color: #565499;
+        --standard-color: #ffffff;
+        --second-color: #5E6C5B;
         --third-color: #e5e1dc;
         --text-color: #11120D;
         
         margin: 0;
-        background-color: #FFFBF4;
+        background-color: var(--standard-color);
     
 
 }
@@ -36,7 +36,7 @@ body{
 .header{
     position: sticky;
     top: 0;
-    background-color: #565449;
+    background-color: var(--second-color);
     height: 35px;
     margin: 0px;
     display: grid;
@@ -47,12 +47,12 @@ body{
 .header-tekst{
     font-family: var(--main-font);
     font-size: var(--font-size-xs);
-    color: #FFFBF4; 
+    color: var(--standard-color);
 }
 
 
 .header-bottom{
-    background-color: #e5e1dc;
+    background-color: var(--standard-color);
     margin: 0px;
     display: grid;
 }
@@ -151,7 +151,7 @@ p:nth-child(1){
     font-family: "Didact Gothic";
     text-decoration: none;
     font-size: var(--font-size-xs);
-    color: #FFFBF4;
+    color: var(--standard-color);
 }
 
 

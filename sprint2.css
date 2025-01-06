@@ -1,0 +1,118 @@
+html{
+    background-color: var(--standard-color);
+    margin: 0;
+    width: 100%;
+    } 
+
+body{
+
+    /*fonts*/  
+        --main-font: "Didact Gothic";
+        --secondary-font: "Cinzel Decorative";
+        --third-font: "Castoro Titling"
+    
+    /* font-size-headings */
+        --font-size-xxl: 96px;
+        --font-size-xl: 64px;
+        --font-size-l: 48px;
+        --font-size-m: 32px;
+        --font-size-s: 24px;
+        --font-size-xs: 16px;
+    
+    /*colors*/
+        --standard-color: #ffffff;
+        --second-color: #5E6C5B;
+        --third-color: #e5e1dc;
+        --text-color: #11120D;
+        
+        margin: 0;
+        background-color: var(--standard-color);
+    
+
+}
+
+.header{
+    position: sticky;
+    top: 0;
+    background-color: var(--second-color);
+    height: 35px;
+    margin: 0px;
+    display: grid;
+    align-items: center;
+    justify-content: center;      
+}
+
+.header-tekst{
+    margin: 0;
+    font-family: var(--main-font);
+    font-size: var(--font-size-xs);
+    color: var(--standard-color); 
+}
+
+.h1{
+    font-family: var(--main-font);
+    font-weight: var(--font-weight-xl);  
+    font-size: var(--font-size-m);
+    color: var(--fourth-color);
+    margin: 0;
+    padding: 32px;
+    text-align: center;
+    border-bottom: solid 5px var(--fourth-color);
+    border-radius: 50%;
+}
+
+.h2{
+    font-family: var(--main-font);
+    font-weight: var(--font-weight-xl);  
+    font-size: var(--font-size-s);
+    color: var(--fourth-color);
+    margin: 0;
+    width: fit-content;
+    border-bottom: solid 3px var(--fourth-color);
+    padding-bottom: 3px;
+}
+
+.article1-sprint2{
+    display: grid;
+    justify-items: center;
+    padding: 32px;
+    border-bottom: solid 3px var(--fourth-color);
+    border-bottom-style: dashed;
+}
+
+.p1-sprint2{
+    font-family: var(--main-font);
+    margin: 0;
+    padding-top: 16px;
+    text-align: justify;
+}
+
+.article2-sprint2{
+    display: grid;
+    justify-items: center;
+    padding: 32px;
+    border-bottom: solid 3px var(--fourth-color);
+    border-bottom-style: dashed;
+}
+
+.p2-sprint2{
+    font-family: var(--main-font);
+    margin: 0;
+    padding-top: 16px;
+    text-align: justify;
+}
+
+.article3-sprint2{
+    display: grid;
+    justify-items: center;
+    padding: 32px;
+    border-bottom: solid 3px var(--fourth-color);
+    border-bottom-style: dashed;
+}
+
+.p3-sprint2{
+    font-family: var(--main-font);
+    margin: 0;
+    padding-top: 16px;
+    text-align: justify;
+}

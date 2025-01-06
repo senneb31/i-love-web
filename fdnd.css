@@ -10,7 +10,7 @@ body{
         --main-font: "Didact Gothic";
         --secondary-font: "Cinzel Decorative";
         --third-font: "Castoro Titling"
-   
+    
     /* font-size-headings */
         --font-size-xxl: 96px;
         --font-size-xl: 64px;
@@ -20,13 +20,13 @@ body{
         --font-size-xs: 16px;
     
     /*colors*/
-        --standard-color: #fffbf4;
-        --second-color: #565499;
+        --standard-color: #ffffff;
+        --second-color: #5E6C5B;
         --third-color: #e5e1dc;
         --text-color: #11120D;
         
         margin: 0;
-        background-color: #FFFBF4;
+        background-color: var(--standard-color);
     
 
 }
@@ -34,7 +34,7 @@ body{
 .header{
     position: sticky;
     top: 0;
-    background-color: #565449;
+    background-color: var(--second-color);
     height: 35px;
     margin: 0px;
     display: grid;
@@ -46,7 +46,7 @@ body{
     margin: 0;
     font-family: var(--main-font);
     font-size: var(--font-size-xs);
-    color: #FFFBF4; 
+    color: var(--standard-color); 
 }
 
 .p1{
