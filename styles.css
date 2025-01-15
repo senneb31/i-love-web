@@ -41,7 +41,8 @@ body{
     margin: 0px;
     display: grid;
     align-items: center;
-    justify-content: center;      
+    justify-content: center;
+    z-index: 100;      
 }
 
 .header-tekst{
@@ -126,6 +127,11 @@ body{
 }
 */
 
+.nav{
+    display: grid;
+    justify-content: space-evenly;
+}
+
 .nav__list{
     list-style-type: none;
     text-decoration: none;
@@ -195,12 +201,14 @@ a:nth-of-type(2):hover{
 .img{
     display: flex;
     justify-content: center;
-    padding-bottom: 50px; 
+    padding: 32px 64px 64px 64px;
+    max-width: 600px;
+
 }
 
 .mugshot{
     margin: 0;
-    width: 75%;
+    width: 100%;
 }
 
 
