@@ -1,0 +1,62 @@
+html{
+    background-color: white;
+    margin: 0;
+    width: 100%;
+    } 
+
+body{
+
+    /*fonts*/  
+        --main-font: "Didact Gothic";
+        --secondary-font: "Cinzel Decorative";
+        --third-font: "Castoro Titling";
+    
+    /* font-size-headings */
+        --font-size-xxl: 96px;
+        --font-size-xl: 64px;
+        --font-size-l: 48px;
+        --font-size-m: 32px;
+        --font-size-s: 24px;
+        --font-size-xs: 16px;
+    
+    /*colors*/
+        --standard-color: #ffffff;
+        --second-color: #5E6C5B;
+        --third-color: #e5e1dc;
+        --text-color: #11120D;
+        
+        margin: 0;
+        background-color: var(--standard-color);
+    
+
+}
+
+.header{
+    position: sticky;
+    top: 0;
+    background-color: var(--second-color);
+    height: 35px;
+    margin: 0px;
+    display: grid;
+    align-items: center;
+    justify-content: center;      
+}
+
+.header-tekst{
+    margin: 0;
+    font-family: var(--main-font);
+    font-size: var(--font-size-xs);
+    color: var(--standard-color); 
+}
+
+.links{
+    display: flex;
+    justify-content: space-around;
+}
+
+a{
+    font-size: var(--font-size-xs);
+    font-family: var(--main-font);
+    text-decoration: none;
+    color: var(--text-color);
+}

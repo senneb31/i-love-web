@@ -104,10 +104,10 @@ Dit doe ik d.m.v. transform: translateX().
 Welke functionaliteit wil je vrijdag laten testen?
 Ik wil testen of de tabs werken als ik er via tabben naartoe ga. Dus niet alleen met de hover.
 
-18-12-2924
+18-12-2024
 Vandaag heb ik de sprint review voorbereid. Ook heb ik een begin gemaakt aan mijn readme door het analyseren van alle andere readme's.
 
-06-01-2024
+06-01-2025
 De eerste dag van de zesde sprint. Een belangrijke dag, want we gaan deze sprint alles toepassen wat we in de 
 vorige sprints allemaal hebben geleerd. We passen die toe in een opdracht voor een nieuwe opdrachtgever.
 Voor vandaag heb ik mijn ontwikkeling in kaart gebracht met behulp van de Development Life Cycle.
@@ -134,15 +134,21 @@ Wat heb ik nodig om langer te blijven bij FDND?
 Ik heb niet zoveel nodig vanuit FDND om naar school te gaan. De opdrachten vind ik leuk
 en ik vind het fijn dat ik een eigen I Love Web heb om mijn creativiteit te uiten. 
 
-13-1-2024
+13-1-2025
 Vandaag heb ik verschillende interacties bekeken en bedacht welke interactie ik wil gaan 
 gebruiken voor mijn website. Ik wil ervoor zorgen dat er een progressbar wordt opgevuld
 als er door de gebruiker wordt gescrolld door de pagina. Dit doe ik in verschillende stappen
 en om het voor mezelf makkelijker te maken, zorg ik ervoor dat de eerste interactie nog met een 
 button is. 
 
+15-1-2025
+Vandaag heb ik geleerd over de animations volgens het Disney principe. De drie nieuwe css
+properties die ik vandaag heb geleerd zijn: on-scroll, page-transition en ease-in en out.
+De animatie principes die ik nog niet helemaal begrijp  zijn de animaties: Follow through 
+and Overlapping action en arc. De animatie principe die ik ga toevoegen aan mijn I Love Web
+is ease in and ease out. 
 
-debriefing:
+debriefing;
 crelo digihandig
 wave accessibility
 filter is niet perse van toepassing, alleen als tijd over is
@@ -150,5 +156,7 @@ dashboard en grafiekjes is een must
 the social dilemma, must watch docu
 contact robbin
 robbin@futureready.design
+
+
 
 
