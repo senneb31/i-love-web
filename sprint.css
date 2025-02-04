@@ -73,7 +73,7 @@ body{
     padding-bottom: 3px;
 }
 
-.article1-sprint1{
+.article1-sprint{
     display: grid;
     justify-items: center;
     padding: 32px;
@@ -81,14 +81,14 @@ body{
     border-bottom-style: dashed;
 }
 
-.p1-sprint1{
+.p1-sprint{
     font-family: var(--main-font);
     margin: 0;
     padding-top: 16px;
     text-align: justify;
 }
 
-.list1-sprint1{
+.list1-sprint{
     list-style-type: none;
     display: grid;
     margin: 0;
@@ -99,7 +99,7 @@ body{
     text-align: justify;
 }
 
-.article2-sprint1{
+.article2-sprint{
     display: grid;
     justify-items: center;
     padding: 32px;
@@ -107,14 +107,14 @@ body{
     border-bottom-style: dashed;
 }
 
-.p2-sprint1{
+.p2-sprint{
     font-family: var(--main-font);
     margin: 0;
     padding-top: 16px;
     text-align: justify;
 }
 
-.article3-sprint1{
+.article3-sprint{
     display: grid;
     justify-items: center;
     padding: 32px;
@@ -122,14 +122,14 @@ body{
     border-bottom-style: dashed;
 }
 
-.p3-sprint1{
+.p3-sprint{
     font-family: var(--main-font);
     margin: 0;
     padding-top: 16px;
     text-align: justify;
 }
 
-.list3-sprint1{
+.list3-sprint{
     list-style-type: none;
     display: grid;
     margin: 0;
@@ -141,7 +141,7 @@ body{
 }
 
 
-.article4-sprint1{
+.article4-sprint{
     display: grid;
     justify-items: center;
     padding: 32px;
@@ -149,14 +149,14 @@ body{
     border-bottom-style: dashed;
 }
 
-.p4-sprint1{
+.p4-sprint{
     font-family: var(--main-font);
     margin: 0;
     padding-top: 16px;
     text-align: justify;
 }
 
-.article5-sprint1{
+.article5-sprint{
     display: grid;
     justify-items: center;
     padding: 32px;
@@ -164,7 +164,7 @@ body{
     border-bottom-style: dashed;
 }
 
-.p5-sprint1{
+.p5-sprint{
     font-family: var(--main-font);
     margin: 0;
     padding-top: 16px;
@@ -217,7 +217,7 @@ body{
     top: 190px;
 }
 
-.article1-sprint1{
+.article1-sprint{
     display: grid;
     justify-items: center;
     position: relative;
@@ -228,14 +228,14 @@ body{
     border-bottom-style: dashed;
 }
 
-.p1-sprint1{
+.p1-sprint{
     font-family: var(--main-font);
     margin: 0;
     padding-top: 16px;
     text-align: justify;
 }
 
-.list1-sprint1{
+.list1-sprint{
     list-style-type: none;
     display: grid;
     margin: 0;
@@ -246,7 +246,7 @@ body{
     text-align: justify;
 }
 
-.article2-sprint1{
+.article2-sprint{
     display: grid;
     justify-items: center;
     position: relative;
@@ -257,14 +257,14 @@ body{
     border-bottom-style: dashed;
 }
 
-.p2-sprint1{
+.p2-sprint{
     font-family: var(--main-font);
     margin: 0;
     padding-top: 16px;
     text-align: justify;
 }
 
-.article3-sprint1{
+.article3-sprint{
     display: grid;
     justify-items: center;
     position: relative;
@@ -275,14 +275,14 @@ body{
     border-bottom-style: dashed;
 }
 
-.p3-sprint1{
+.p3-sprint{
     font-family: var(--main-font);
     margin: 0;
     padding-top: 16px;
     text-align: justify;
 }
 
-.list3-sprint1{
+.list3-sprint{
     list-style-type: none;
     display: grid;
     margin: 0;
@@ -293,7 +293,7 @@ body{
     text-align: justify;
 }
 
-.article4-sprint1{
+.article4-sprint{
     display: grid;
     justify-items: center;
     position: relative;
@@ -304,14 +304,14 @@ body{
     border-bottom-style: dashed;
 }
 
-.p4-sprint1{
+.p4-sprint{
     font-family: var(--main-font);
     margin: 0;
     padding-top: 16px;
     text-align: justify;
 }
 
-.article5-sprint1{
+.article5-sprint{
     display: grid;
     justify-items: center;
     position: relative;
@@ -322,7 +322,7 @@ body{
     border-bottom-style: dashed;
 }
 
-.p5-sprint1{
+.p5-sprint{
     font-family: var(--main-font);
     margin: 0;
     padding-top: 16px;
