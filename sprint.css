@@ -217,7 +217,7 @@ body{
     top: 190px;
 }
 
-.article1-sprint{
+.article-sprint{
     display: grid;
     justify-items: center;
     position: relative;
@@ -228,14 +228,14 @@ body{
     border-bottom-style: dashed;
 }
 
-.p1-sprint{
+.p-sprint{
     font-family: var(--main-font);
     margin: 0;
     padding-top: 16px;
     text-align: justify;
 }
 
-.list1-sprint{
+.list-sprint{
     list-style-type: none;
     display: grid;
     margin: 0;
@@ -246,6 +246,7 @@ body{
     text-align: justify;
 }
 
+/*
 .article2-sprint{
     display: grid;
     justify-items: center;
@@ -328,4 +329,5 @@ body{
     padding-top: 16px;
     text-align: justify;
 }
+    */
 }
