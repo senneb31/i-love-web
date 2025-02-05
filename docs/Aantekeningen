@@ -18,3 +18,8 @@ Je moet juist in je portfolio laten zien wat je kan
 Is je eigen portfolio het slechtse product wat je ooit op gaat leveren?
 Dion vindt van wel, want hij vindt dat je op jezelf altijd kritiek heb en dat het nooit af is.
 easings.net als tool voor javascript
+
+css challenge :has
+
+Om items voor en na een bepaald item aan te spreken:
+gebruik + voor het item erna en :has(+) voor het item ervoor
