@@ -166,3 +166,54 @@ h1{
     justify-content: space-evenly;
     align-items: center;
 }
+
+
+
+
+.profile-card{
+    background-color: wheat;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    justify-content: flex-start;
+    margin: 6rem;
+    align-items: center;
+    flex-direction: column;
+}
+
+.geboortedatum{
+    width: 150px;
+    height: 50px;
+    background-color: darkgreen;
+    border-radius: 30px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.vind-ik-leuk{
+    width: 150px;
+    height: 50px;
+    background-color: darkgreen;
+    border-radius: 30px;
+    margin-top: 30px;
+    display: grid;
+    justify-content: center;
+}
+
+.gezicht{
+    background-color: darkgreen;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    margin-top: 30px;
+}
+
+.lichaam{
+    background-color: darkgreen;
+    width: 100px;
+    height: 100px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    margin-top: 10px;
+}
