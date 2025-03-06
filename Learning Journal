@@ -159,6 +159,43 @@ Vandaag weer een les na de vakantie. Vandaag hebben we geleerd over een formulie
 Daarna zijn we verder gegaan met het schetsen van de squad page en het itereren van alle schetsen. Zo zijn we tot 
 1 schets gekomen die we gaan gebruiken voor de website.
 
+28-2-2025
+Vandaag stond voor samenwerken, we hebben allerlei metafoor tekeningen gemaakt om onze samenwerking te visualiseren. Daarnaast heb ik mijn bewijslast in portflow toegevoegd. Om deze afgelopen eerste 4 weken van het tweede semester samen te vatten zijn hier 25 vragen. Deze vragen beantwoord ik d.m.v. punten.
+
+0 punten: Ik ben hier nog niet aan toe gekomen
+
+1 punt: Ik heb hiermee geëxperimenteerd, maar weet nog niet goed wat dit is
+
+2 punten: Ik begrijp dit, maar kan het nog niet helemaal zelfstandig toepassen
+
+3 punten: Dit ken ik helemaal en heb hier geen hulp bij nodig
+
+1. Ik kan uitleggen wat NodeJS is en waarvoor het gebruikt wordt (2pnt)
+2. Ik weet wat het doel van package.json is en heb hier aanpassingen ingemaakt (2pnt)
+3. Ik heb met npm packages geïnstalleerd en gebruikt in het bestandserver.js (2 pnt)
+4. Ik kan met commando’s in de terminal een NodeJS project stoppen en starten (3pnt)
+5. Ik weet waarom ik mijn NodeJS project regelmatig moet herstarten en kan dit uitleggen (3pnt)
+6. Ik heb een strategie voor debuggen in NodeJS (1pnt)
+7. Ik kan uitleggen wat Express.js doet en waarom het nodig is om met NodeJS een website te bouwen (2pnt)
+8. Ik weet wat routes zijn en kan zelf een nieuwe route aanmaken (3pnt)
+9. Ik weet wat request en response argumenten zijn in een functie voor het laden van data (2pnt)
+10. Ik heb gebruik gemaakt van een request parameter om specifieke data te laden (2pnt)
+11. Ik kan uitleggen wat Liquid doet en waarom het nodig is om met Express.js een website te maken (3pnt)
+12. Ik weet hoe ik data naar Liquid verstuur om dit te gebruiken bij het renderen van een pagina (2pnt)
+13. Ik weet hoe ik Liquid filters toe kan passen en waar ik kan vinden hoe die werken (1pnt)
+14. Ik heb een nieuwe route gemaakt en nieuwe data meegegeven aan een Liquid view (2pnt)
+15. Ik weet waar een foreach loop voor gebruikt wordt en pas het toe in een Liquid view om HTML te renderen (1pnt)
+16. Ik kan in Liquid een controle maken waarmee de avatar niet getoond wordt als deze niet in whois.fdnd.nl is ingevuld (2pnt)
+17. Ik heb een strategie voor debuggen in Liquid (0pnt)
+18. Ik kan data fetchen uit een REST API (0pnt)
+19. Ik snap het verschil tussen HTTP requests van de methodes GET en POST (3pnt)
+20. Ik kan data uit een REST API filteren of sorteren (1pnt)
+21. Ik snap wat het async keyword doet in JavaScriptcode (1pnt)
+22. Ik weet wat het doel is van een try/catch block en kan het gebruiken bij het parsen van JSON (0pnt)
+23. Ik begrijp het verschil tussen client-side JavaScript en server-side JavaScript en wanneer ik welke het handigst in kan zetten (1pnt)
+24. Ik kan formulier data die is ge-POST opslaan in een variabele op de server en gebruiken bij het renderenvan een pagina (3pnt)
+25. Ik kan formulier data die is ge-POST door middelvan een POST of PATCH HTTP request opslaan in de REST API (3pnt)
+
 debriefing;
 crelo digihandig
 wave accessibility
@@ -167,7 +204,3 @@ dashboard en grafiekjes is een must
 the social dilemma, must watch docu
 contact robbin
 robbin@futureready.design
-
-
-
-
