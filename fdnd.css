@@ -31,6 +31,16 @@ body{
 
 }
 
+.back-home{
+    display: grid;
+    justify-content: center;
+    margin: 0 6rem 6rem 6rem;
+    font-family: var(--main-font);
+    font-size: var(--font-size-xs);
+    color: var(--text-color);
+    text-decoration: none;
+}
+
 .header{
     position: sticky;
     top: 0;
